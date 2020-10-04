@@ -23,7 +23,10 @@ module.exports = {
       backgroundImage: theme => ({
         mobileBg: "url('./images/bg-intro-mobile.png')",
         desktopBg: "url('./images/bg-intro-desktop.png')",
-      })
+      }),
+      boxShadow: {
+        shDefault: '0 8px rgba(62, 60, 73, 0.2)',
+      },
     },
   },
   variants: {},

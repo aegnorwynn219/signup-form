@@ -16785,6 +16785,10 @@ video {
   box-shadow: none;
 }
 
+.shadow-shDefault{
+  box-shadow: 0 8px rgba(62, 60, 73, 0.2);
+}
+
 .hover\:shadow-xs:hover{
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
 }
@@ -16825,6 +16829,10 @@ video {
   box-shadow: none;
 }
 
+.hover\:shadow-shDefault:hover{
+  box-shadow: 0 8px rgba(62, 60, 73, 0.2);
+}
+
 .focus\:shadow-xs:focus{
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
 }
@@ -16863,6 +16871,10 @@ video {
 
 .focus\:shadow-none:focus{
   box-shadow: none;
+}
+
+.focus\:shadow-shDefault:focus{
+  box-shadow: 0 8px rgba(62, 60, 73, 0.2);
 }
 
 .fill-current{
@@ -37943,6 +37955,10 @@ video {
     box-shadow: none;
   }
 
+  .sm\:shadow-shDefault{
+    box-shadow: 0 8px rgba(62, 60, 73, 0.2);
+  }
+
   .sm\:hover\:shadow-xs:hover{
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -37983,6 +37999,10 @@ video {
     box-shadow: none;
   }
 
+  .sm\:hover\:shadow-shDefault:hover{
+    box-shadow: 0 8px rgba(62, 60, 73, 0.2);
+  }
+
   .sm\:focus\:shadow-xs:focus{
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -38021,6 +38041,10 @@ video {
 
   .sm\:focus\:shadow-none:focus{
     box-shadow: none;
+  }
+
+  .sm\:focus\:shadow-shDefault:focus{
+    box-shadow: 0 8px rgba(62, 60, 73, 0.2);
   }
 
   .sm\:fill-current{
@@ -59020,6 +59044,10 @@ video {
     box-shadow: none;
   }
 
+  .md\:shadow-shDefault{
+    box-shadow: 0 8px rgba(62, 60, 73, 0.2);
+  }
+
   .md\:hover\:shadow-xs:hover{
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -59060,6 +59088,10 @@ video {
     box-shadow: none;
   }
 
+  .md\:hover\:shadow-shDefault:hover{
+    box-shadow: 0 8px rgba(62, 60, 73, 0.2);
+  }
+
   .md\:focus\:shadow-xs:focus{
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -59098,6 +59130,10 @@ video {
 
   .md\:focus\:shadow-none:focus{
     box-shadow: none;
+  }
+
+  .md\:focus\:shadow-shDefault:focus{
+    box-shadow: 0 8px rgba(62, 60, 73, 0.2);
   }
 
   .md\:fill-current{
@@ -80097,6 +80133,10 @@ video {
     box-shadow: none;
   }
 
+  .lg\:shadow-shDefault{
+    box-shadow: 0 8px rgba(62, 60, 73, 0.2);
+  }
+
   .lg\:hover\:shadow-xs:hover{
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -80137,6 +80177,10 @@ video {
     box-shadow: none;
   }
 
+  .lg\:hover\:shadow-shDefault:hover{
+    box-shadow: 0 8px rgba(62, 60, 73, 0.2);
+  }
+
   .lg\:focus\:shadow-xs:focus{
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -80175,6 +80219,10 @@ video {
 
   .lg\:focus\:shadow-none:focus{
     box-shadow: none;
+  }
+
+  .lg\:focus\:shadow-shDefault:focus{
+    box-shadow: 0 8px rgba(62, 60, 73, 0.2);
   }
 
   .lg\:fill-current{
@@ -101174,6 +101222,10 @@ video {
     box-shadow: none;
   }
 
+  .xl\:shadow-shDefault{
+    box-shadow: 0 8px rgba(62, 60, 73, 0.2);
+  }
+
   .xl\:hover\:shadow-xs:hover{
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -101214,6 +101266,10 @@ video {
     box-shadow: none;
   }
 
+  .xl\:hover\:shadow-shDefault:hover{
+    box-shadow: 0 8px rgba(62, 60, 73, 0.2);
+  }
+
   .xl\:focus\:shadow-xs:focus{
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -101252,6 +101308,10 @@ video {
 
   .xl\:focus\:shadow-none:focus{
     box-shadow: none;
+  }
+
+  .xl\:focus\:shadow-shDefault:focus{
+    box-shadow: 0 8px rgba(62, 60, 73, 0.2);
   }
 
   .xl\:fill-current{
