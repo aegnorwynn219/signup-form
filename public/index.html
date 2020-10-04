@@ -8,9 +8,10 @@
   
   <title>Frontend Mentor | Intro component with sign up form</title>
 </head>
-<body class="bg-primary-red bg-center bg-no-repeat bg-mobileBg md:bg-desktopBg">
+<body class="bg-primary-red bg-center bg-mobileBg md:bg-desktopBg">
   <main class="font-body container mx-auto">
     <div class="px-8 flex flex-col md:flex-row justify-between items-center">
+
       <div class="md:w-1/2 text-center md:text-left text-white">
         <h1 class="px-10 mt-24 mb-8 text-4xl md:text-5xl font-bold">Learn to code by watching others</h1>
 
@@ -21,11 +22,27 @@
         <button class="shadow-shDefault bg-secondary rounded-lg px-24 py-6 md:py-4 mb-6 text-white w-full"><span class="font-bold">Try it free 7 days</span> then $20/mo. thereafter</button>
 
         <form action="" class="shadow-shDefault px-6 pt-6 flex flex-col w-full bg-white rounded-lg">
-          <input class="input" id="firstName" type="text" name="firstName" placeholder="First Name" required>
-          <input class="input" id="lastName" type="text" name="lastName" placeholder="Last Name" required>
-          <input class="input" id="email" type="email" name="email" placeholder="Email Address" required>
-          <input class="input" id="password" type="password" name="password" placeholder="Password" required>
+          <div class="input-div focus:border-primary-red">
+            <input class="input" id="firstName" type="text" name="firstName" placeholder="First Name" required>
 
+            <svg class="hidden" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+          </div>
+          <div class="input-div">
+            <input class="input" id="email" type="email" name="email" placeholder="Email Address" required>
+
+            <svg class="hidden" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+          </div>
+          <div class="input-div">
+            <input class="input" id="password" type="password" name="password" placeholder="Password" required> 
+
+            <svg class="hidden" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+          </div>
+          <div class="input-div">
+            <input class="input" id="password" type="password" name="password" placeholder="Password" required> 
+
+            <svg class="hidden" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+          </div>
+          
           <button class="shadow-shDefault py-6 tracking-widest uppercase w-full text-white font-semibold bg-primary-green rounded-lg" type="submit">Claim your free trial</button>
 
           <p class="p-6 pt-2 text-sm text-center text-neutral-grayishBlue">By clicking the button, you are agreeing to our <a class="font-semibold text-neutral-darkBlue hover:underline" href="#">Terms and Services</a></p>

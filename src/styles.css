@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.input-div {
+  @apply flex items-center w-full tracking-wide p-4 mb-4 rounded-lg border border-gray-300;
+}
+
 .input {
-  @apply w-full tracking-wide p-4 mb-4 rounded-lg border border-gray-300 font-semibold text-gray-600;
+  @apply w-11/12 font-semibold text-gray-600 outline-none;
 }
