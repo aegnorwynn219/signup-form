@@ -22031,7 +22031,8 @@ video {
 }
 
 .input {
-  width: 91.666667%;
+  padding-left: 1rem;
+  width: 83.333333%;
   font-weight: 600;
   --text-opacity: 1;
   color: #718096;
