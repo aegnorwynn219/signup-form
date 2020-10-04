@@ -10,8 +10,12 @@ module.exports = {
         primary: {
           red: 'hsl(0, 100%, 74%)',
           green: 'hsl(154, 59%, 51%)',
+          greenHover: 'hsl(154, 59%, 60%)',
         },
-        secondary: 'hsl(248, 32%, 49%)',
+        secondary: {
+          blue: 'hsl(248, 32%, 49%)',
+          blueHover: 'hsl(248, 32%, 58%)',
+        },
         neutral: {
           darkBlue: 'hsl(249, 10%, 26%)',
           grayishBlue: 'hsl(246, 25%, 77%)',
