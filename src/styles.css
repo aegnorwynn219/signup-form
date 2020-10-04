@@ -2,3 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.input {
+  @apply w-full tracking-wide p-4 mb-4 rounded-lg border border-gray-300 font-semibold text-gray-600;
+}

@@ -21729,6 +21729,22 @@ video {
           animation: bounce 1s infinite;
 }
 
+.input {
+  width: 100%;
+  letter-spacing: 0.025em;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: #e2e8f0;
+  border-color: rgba(226, 232, 240, var(--border-opacity));
+  font-weight: 600;
+  --text-opacity: 1;
+  color: #718096;
+  color: rgba(113, 128, 150, var(--text-opacity));
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
