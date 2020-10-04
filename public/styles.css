@@ -22023,7 +22023,6 @@ video {
   width: 100%;
   letter-spacing: 0.025em;
   padding: 1rem;
-  margin-bottom: 1rem;
   border-radius: 0.5rem;
   border-width: 1px;
   --border-opacity: 1;
@@ -22038,6 +22037,16 @@ video {
   color: #718096;
   color: rgba(113, 128, 150, var(--text-opacity));
   outline: 0;
+}
+
+.errorMsg {
+  --text-opacity: 1;
+  color: hsl(0, 100%, 74%);
+  color: rgba(255, 122.39999999999999, 122.39999999999999, var(--text-opacity));
+  text-align: right;
+  font-size: 0.75rem;
+  font-style: italic;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 640px){
