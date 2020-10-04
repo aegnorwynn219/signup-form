@@ -20,6 +20,10 @@ module.exports = {
       fontFamily: {
         body: ['Poppins', 'sans-serif']
       },
+      backgroundImage: theme => ({
+        mobileBg: "url('./images/bg-intro-mobile.png')",
+        desktopBg: "url('./images/bg-intro-desktop.png')",
+      })
     },
   },
   variants: {},

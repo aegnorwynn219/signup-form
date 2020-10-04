@@ -2,36 +2,43 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Intro component with sign up form</title>
 </head>
-<body>
+<body class="bg-primary-red bg-center bg-no-repeat bg-mobileBg md:bg-desktopBg">
+  <main class="font-body container mx-auto my-auto h-full">
+    <div class="px-8 flex flex-wrap justify-between items-center">
+      <div class="text-center md:text-left text-white">
+        <h1 class="px-10 mb-10 text-3xl font-bold">Learn to code by watching others</h1>
 
-  <h1>Learn to code by watching others</h1>
+        <p class="px-4 text-xl font-medium">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+      </div>
+      
+      <div>
+        <button>Try it free 7 days then $20/mo. thereafter</button>
 
-  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-  but understanding how developers think is invaluable. 
+        <fieldset>
+          <input id="firstName" type="text" name="firstName" placeholder="First Name">
+          <input id="lastName" type="text" name="lastName" placeholder="Last Name">
+          <input id="email" type="email" name="email" placeholder="Email Address">
+          <input id="password" type="text" name="password" placeholder="Password">
+        </fieldset>
 
-  Try it free 7 days then $20/mo. thereafter
+        <button>Claim your free trial</button>
 
-  First Name 
-  Last Name 
-  Email Address
-  Password
+        <p>By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+      </div>
+    </div>
 
-  Claim your free trial 
-
-  By clicking the button, you are agreeing to our Terms and Services
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+    <footer class="px-8">
+      <p>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://aegnorwynn219.github.io/">Roland Levai</a>.
+      </p>
+    </footer>
+  </main>
 </body>
 </html>
