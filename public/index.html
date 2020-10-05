@@ -21,34 +21,34 @@
       <div class="md:w-1/2">
         <button class="shadow-shDefault bg-secondary-blue hover:bg-secondary-blueHover rounded-lg px-24 py-6 md:py-4 mb-6 text-white w-full"><span class="font-bold">Try it free 7 days</span> then $20/mo. thereafter</button>
 
-        <form class="shadow-shDefault px-6 pt-6 flex flex-col w-full bg-white rounded-lg">
-          <div class="input-div mb-6">
-            <input class="input" id="firstName" type="text" name="firstName" placeholder="First Name" required>
+        <form id="form" class="shadow-shDefault px-6 pt-6 flex flex-col w-full bg-white rounded-lg">
+          <div id="inputDivFName" class="input-div mb-6">
+            <input class="input" id="firstName" type="text" name="firstName" placeholder="First Name">
 
             <svg class="hidden" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
           </div>
-          <p class="errorMsg hidden">First Name cannot be empty</p>
+          <p id="errorFName" class="errorMsg hidden">First Name cannot be empty</p>
 
-          <div class="input-div mb-6">
-            <input class="input" id="email" type="email" name="email" placeholder="Email Address" required>
-
-            <svg class="hidden" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
-          </div>
-          <p class="errorMsg hidden">Last Name cannot be empty</p>
-
-          <div class="input-div mb-6">
-            <input class="input" id="password" type="password" name="password" placeholder="Password" required> 
+          <div id="inputDivLName" class="input-div mb-6">
+            <input class="input" id="lastName" type="text" name="lastName" placeholder="Last Name">
 
             <svg class="hidden" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
           </div>
-          <p class="errorMsg hidden">Looks like this is not an email</p>
+          <p id="errorLName" class="errorMsg hidden">Last Name cannot be empty</p>
 
-          <div class="input-div mb-6">
-            <input class="input" id="password" type="password" name="password" placeholder="Password" required> 
+          <div id="inputDivEmail" class="input-div mb-6">
+            <input class="input" id="email" type="email" name="email" placeholder="Email Address"> 
 
             <svg class="hidden" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
           </div>
-          <p class="errorMsg hidden">Password cannot be empty</p>
+          <p id="errorEmail" class="errorMsg hidden">Looks like this is not an email</p>
+
+          <div id="inputDivPwd" class="input-div mb-6">
+            <input class="input" id="password" type="password" name="password" placeholder="Password"> 
+
+            <svg class="hidden" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+          </div>
+          <p id="errorPwd" class="errorMsg hidden">Password cannot be empty</p>
 
           <button class="shadow-shDefault py-6 tracking-widest uppercase w-full text-white font-semibold bg-primary-green rounded-lg hover:bg-primary-greenHover" type="submit">Claim your free trial</button>
 
